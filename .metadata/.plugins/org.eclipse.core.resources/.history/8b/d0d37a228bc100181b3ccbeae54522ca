@@ -1,0 +1,21 @@
+/*
+ * main.c
+ *
+ *  Created on: Sep 26, 2018
+ *      Author: Salma Tarek
+ */
+#include "lcd.h"
+#include "adc.h"
+
+int main (void)
+{
+	LCD_init();
+	ADC_init();
+	SREG |= (1<<7);
+
+	while(1)
+	{
+
+	}
+}
+
